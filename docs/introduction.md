@@ -15,6 +15,7 @@ This means having them be used in visible motion is naturally very clean. They a
 
 The most optimal spring library in roblox is [fraktality's spr](https://github.com/fraktality/spr).
 
+If you want more info on how springs work here is the offical [react spring's page](https://react-spring.io/)
 
 However, using this when animating an object can get pretty tough to manage esepcially when there is no overarching structure to it all. Thats where Flipper comes in!
 
