@@ -13,8 +13,8 @@ Springs are the best way to show motion as they have a very natural feel and loo
 
 This means having them be used in visible motion is naturally very clean. They also can be configured to mimic common time based easing styles which can be viewed in the API reference under springs.
 
-The most optimal spring library in roblox is fraktality's spr.
-https://github.com/fraktality/spr
+The most optimal spring library in roblox is [fraktality's spr](https://github.com/fraktality/spr).
+
 
 However, using this when animating an object can get pretty tough to manage esepcially when there is no overarching structure to it all. Thats where Flipper comes in!
 
