@@ -4,13 +4,20 @@ The traditional why in which we animate is with a set duration that mimics a set
 
 <h1> What are springs?</h1>
 
-Springs are the best way to show motion based UI as they have a very natural feel and look by default. Springs are used all around us in our daily lives such as jumping up and down or waving to a friend so having them be used in UI motion is naturally very clean. They also can be configured to mimic common time based easing styles which can be viewed in the API reference under springs.
+Springs are the best way to show motion as they have a very natural feel and look by default. Springs are used all around us in our daily lives such as 
+
+* pushing on the brake pedal in your car
+* targeting your crosshair in an FPS game
+* turning on the gas for your fire place
+* Much more!
+
+This means having them be used in visible motion is naturally very clean. They also can be configured to mimic common time based easing styles which can be viewed in the API reference under springs.
 
 The most optimal spring library in roblox is fraktality's spr.
 https://github.com/fraktality/spr
 
-However, using this when animation an object can get pretty tough to manage esepcially when there is no overarching structure to it all. Thats where Flipper comes in!
+However, using this when animating an object can get pretty tough to manage esepcially when there is no overarching structure to it all. Thats where Flipper comes in!
 
 <h1> What is Flipper? </h1>
 
-Flipper ties up all of these concepts into a neat little package. 
+Flipper ties up all of these concepts into a neat little package that is easy to use and easy to intergrate with UI with a very simple to use API. It also naturally works great with Roact and Bindings!
