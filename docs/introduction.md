@@ -21,4 +21,4 @@ However, using this when animating an object can get pretty tough to manage esep
 
 <h1> What is Flipper? </h1>
 
-Flipper ties up all of these concepts into a neat little package that is easy to use and easy to intergrate with UI with a very simple to use API. It also naturally works great with Roact and Bindings!
+Flipper ties up all of these concepts into a neat little package that is easy to integrate with a very simple API. It also naturally works great with Roact and Bindings!
