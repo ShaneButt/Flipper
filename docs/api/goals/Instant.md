@@ -1,8 +1,5 @@
 
-This instant goal is when you want the motion to be instanteous.
-
 <h2> Methods </h2>
-
 
 Instant.new
 
@@ -17,10 +14,16 @@ This function will create a new instant goal with a specified target value.
 Instant:step()
 
 ```lua
-Instant:step()
+local state = Instant:step()
 ```
 
-This function will step the current goal to the ending state.
+This function will step the current goal to the ending state and then return a table of the current state. The table consists of ```complete``` and ```value``` keys.
+
+```lua
+    local state = Instant:step()
+    print("is complete: "..complete)
+    print("current alpha: "..value)
+``` 
 
 ???+ warning
     This is the only goal that doesnt require any paremeters due to it being instant. 
